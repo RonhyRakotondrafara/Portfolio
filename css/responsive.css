@@ -1,0 +1,52 @@
+@media screen and (max-width:991px) {
+    body{
+        font-size: 10px;
+    }
+    .adresse-mail {
+        font-size: 0.75em;
+    }
+    .adresse-local {
+        text-align: center;
+        /* font-size: 12px; */
+        word-spacing: 30em;
+    }
+    .icones a {
+        width: 23px;
+        height: 23px;
+        /* font-size: 13px; */
+    }
+    .information{
+        padding: 20px 10px;
+    }
+    .maphoto {
+        width: 90%;
+      }
+}
+@media screen and (max-width:571px) {
+    body{
+        font-size: 25px;
+    }
+    .principal{
+        height: auto;
+    }
+    .information {
+        height: 90vh;
+        margin-bottom: 40px;
+    }
+    .adresse-mail {
+        font-size: 0.6em;
+    }
+    .contenu.apropos p {
+        font-size: 0.8em;
+    }
+    .part-avantage .pource-avantage {
+        font-size: 0.9em;
+    }
+    .contenu.contrat ul{
+        padding: 0;
+        margin-top: 15px;
+    }
+    .contrat a {
+        font-size: 0.7em;
+    }
+}
